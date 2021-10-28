@@ -1,0 +1,11 @@
+@media (min-width: 650px) {
+  h1::before {
+    content: "Hello! My name is";
+  }
+}
+
+@media (max-width: 649px) {
+  h1::before {
+    content: "I'm";
+  }
+}

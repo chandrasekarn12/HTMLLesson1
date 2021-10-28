@@ -1,0 +1,27 @@
+ul {
+  font-size: 30px;
+  text-align: left; }
+
+div ul {
+  font-size: 15px;
+  text-align: left; }
+
+.Box {
+  background: black;
+  display: grid;
+  padding: 10px;
+  grid-column-gap: 0px;
+  grid-row-gap: 10px;
+  grid-template-columns: 50% 50%; }
+
+.hBox-info, .aBox-info, .iBox-info {
+  padding: 10px; }
+
+.hBox-info {
+  background-color: #ff8000; }
+
+.aBox-info {
+  background-color: #d6c3fa; }
+
+.iBox-info {
+  background-color: springgreen; }
